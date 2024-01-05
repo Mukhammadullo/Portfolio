@@ -80,16 +80,39 @@ function App() {
 
 
 {/* stack */}
-<div>
-  {/* row1 */}
+<div className='flex justify-center'>
   <div>
-    <img src="src/assets/vscode-icons_file-type-html.svg" alt="" />
-    <img src="src/assets/vscode-icons_file-type-css.svg" alt="" />
-    <img src="" alt="" />
+  {/* row1 */}
+  <div className='flex mb-[6%] mt-[8%]'>
+    <img className='p-[2%]' src="src/assets/vscode-icons_file-type-html.svg" alt="" />
+    <img className='p-[2%]' src="src/assets/vscode-icons_file-type-css.svg" alt="" />
+    <img className='p-[2%]' src="src/assets/vscode-icons_file-type-js-official.svg" alt="" />
+    <img className='p-[2%]' src="src/assets/logos_react.svg" alt="" />
+    <img className='p-[2%]' src="src/assets/Vector.svg" alt="" />
+    <img className='p-[2%]' src="src/assets/logos_bootstrap.svg" alt="" />
   </div>
   {/* row2 */}
-  <div></div>
+  <div className='flex'>
+    <img className='p-[2%]' src="src/assets/vscode-icons_file-type-tailwind.svg" alt="" />
+    <img className='p-[2%]' src="src/assets/logos_sass.svg" alt="" />
+    <img className='p-[2%]' src="src/assets/logos_git-icon.svg" alt="" />
+    <img className='p-[2%]' src="src/assets/cib_greensock.svg" alt="" />
+    <img className='p-[2%]' src="src/assets/vscode-icons_file-type-vscode.svg" alt="" />
+    <img className='p-[2%]' src="src/assets/akar-icons_github-fill.svg" alt="" />
+  </div>
+  </div>
 </div>
+</section>
+
+
+{/* section_project */}
+<section>
+{/* title */}
+<div className='flex flex-col justify-center items-center'>
+<h1 className='text-[#42446E] text-[50px] font-bold'>Projects</h1>
+<p className='mb-3 text-[#666666] font-mono text-[20px]'> Things I’ve built so far</p>
+</div>
+
 
 </section>
 
