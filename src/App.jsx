@@ -1,6 +1,6 @@
-
-
 import Switcher from './components/Switcher'
+
+
 import './App.css'
 
 // ant
@@ -11,7 +11,7 @@ function App() {
   return (<div>
 
 {/* header */}
-<header className='flex justify-around'>
+<header className='flex justify-around '>
 <img src="src/assets/logo 1.svg" alt="" />
 
 <div className='flex justify-around p-[2%] w-[60%]'>
