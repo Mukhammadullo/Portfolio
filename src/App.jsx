@@ -119,8 +119,22 @@ function App() {
 </div>
 
 {/* component */}
+<div>
+{/* row1 */}
+<div className='flex justify-evenly'>
 <Card1 img={"src/assets/Rectangle 4.png"} title={"Project Tile goes here"} txt={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"}></Card1>
+<Card1 img={"src/assets/Rectangle 6.svg"} title={"Project Tile goes here"} txt={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"}></Card1>
+<Card1 img={"src/assets/Rectangle 8.svg"} title={"Project Tile goes here"} txt={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"}></Card1>
+</div>
 
+{/* row2 */}
+<div className='flex justify-evenly mt-[4%]'>
+<Card1 img={"src/assets/Rectangle 12.svg"} title={"Project Tile goes here"} txt={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"}></Card1>
+<Card1 img={"src/assets/Rectangle 13.svg"} title={"Project Tile goes here"} txt={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"}></Card1>
+<Card1 img={"src/assets/Rectangle 14.svg"} title={"Project Tile goes here"} txt={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"}></Card1>
+</div>
+
+</div>
 </section>
 
 
@@ -130,3 +144,4 @@ function App() {
 }
 
 export default App
+
