@@ -1,3 +1,6 @@
+
+
+import Switcher from './components/Switcher'
 import './App.css'
 
 // ant
@@ -25,6 +28,7 @@ function App() {
 <GithubOutlined />
 <TwitterOutlined  />
 <LinkedinOutlined />
+<Switcher />
 </div>
 </div>
 </header>
