@@ -45,8 +45,7 @@ function App() {
      <h1 className='text-[#42446E]'>I build things for web</h1>
   </div>
   {/* right */}
-  <div>
-    <img src="src/assets/w.avif" alt="" className='w-[400px] h-[400px] rounded-full border-purple-800 border-solid border-[5px]' />
+  <div className='logo w-[400px] h-[400px]'>
   </div>
 </section>
 
@@ -137,6 +136,27 @@ function App() {
 </div>
 </section>
 
+
+{/* section */}
+<section>
+{/* left */}
+<div>
+  <img src="src/assets/logo 1 (1).svg" alt="" />
+</div>
+{/* right */}
+<div>
+  <div>
+    <h1>+992927305451</h1>
+    <p>mnastulloev@gmail.com</p>
+  </div>
+<div>
+<GithubOutlined />
+<TwitterOutlined  />
+<LinkedinOutlined />  
+</div>
+
+</div>
+</section>
 
 
 
