@@ -11,10 +11,11 @@ const Card1 = ({img, title, txt}) => {
     <p className='text-[#42446E] font-mono'>HTML , JavaScript, SASS, React</p>
 </div>
 
-<div>
-    <h1 className='font-medium decoration-solid'>Live Preview</h1>
-    <div>
+    <div className='flex justify-between m-[2%]'>
+    <h1 className='font-medium decoration-solid-[2px]'>Live Preview</h1>
+    <div className='flex items-center'>
     <GithubOutlined />
+    <p className=''>View Code</p>
     </div>
     
 </div>
