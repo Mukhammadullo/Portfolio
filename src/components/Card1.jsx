@@ -2,7 +2,7 @@ import React from 'react'
 import { GithubOutlined  ,TwitterOutlined , LinkedinOutlined} from '@ant-design/icons';
 
 const Card1 = ({img, title, txt}) => {
-  return (<div className='w-[25%] shadow-xl'>
+  return (<div className='md:w-[25%] shadow-xl rounded-[12px]'>
 <div><img src={img} alt="" /></div>
 <h1 className='text-[20px] font-bold text-center m-[2%]'>{title}</h1>
 <p className='m-[4%]'>{txt}</p>
