@@ -5,10 +5,11 @@ import './App.css'
 
 // ant
 import { GithubOutlined  ,TwitterOutlined , LinkedinOutlined} from '@ant-design/icons';
+import Card1 from './components/Card1';
 
 
 function App() {
-  return (<div>
+  return (<div className='dark:bg-[black] dark:text-[white]'>
 
 {/* header */}
 <header className='flex justify-around '>
@@ -117,8 +118,12 @@ function App() {
 <p className='mb-3 text-[#666666] font-mono text-[20px]'> Things I’ve built so far</p>
 </div>
 
+{/* component */}
+<Card1 img={"src/assets/Rectangle 4.png"} title={"Project Tile goes here"} txt={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"}></Card1>
 
 </section>
+
+
 
 
 </div>)
